@@ -1,0 +1,97 @@
+/*used logic of style.css*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+}
+body{
+    width: 80%;
+    margin: auto;
+    background-color: #e3caad;
+    font-family: 'Ephesis', cursive;
+}
+img{
+    object-fit: cover;
+}
+nav{
+   display: flex;
+    height:200px;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+    background-color: #fdba96;
+      
+}
+.culinaryDelights{
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    font-size: 250%;
+    margin: auto;
+}
+#Lunch{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lunchImage{
+    width: 33.33%;
+}
+.lunch{
+    display: flex;
+    margin-top: 30px;
+}
+.calorie{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ingredients{
+    background-color:#fbdaa0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.ingredients p{
+    font-size: 28px;
+}
+.instruction{
+    background-color: #f8ecc1;
+}
+.instruction p{
+    font-size: 28px;
+}
+
+@media (max-width: 800px) {
+    .culinaryDelights{
+        font-size: 150%;
+    }
+    
+    
+  }
+  @media (max-width: 600px) {
+    body{
+      
+      height: auto;
+    }
+    .culinaryDelights{
+        font-size: 100%;
+    }
+    nav{
+        height: 100px;
+    }
+    img{
+        height: 150px;
+    }
+    .ingredients p{
+        font-size: 18px;
+    }
+    .instruction p{
+        font-size: 18px;
+    }
+    
+    
+  }
+
+
+
